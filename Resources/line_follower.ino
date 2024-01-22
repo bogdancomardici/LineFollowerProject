@@ -1,3 +1,28 @@
+/*
+    Line Follower Robot
+
+    
+  The objective of this project is to construct a line-following robot, utilizing a reflectance sensor to determine the line position.
+  Two motors, managed by an L293D motor driver, are used to guide the robot along the line, aiming to maintain its central position.
+  An Arduino UNO serves as the main controller, responsible for reading sensor data, computing the required motor speeds using a PID controller,
+  and adjusting the motors accordingly. To address the power limitations of the Arduino,
+  an additional 7.4V Li-Po battery is incorporated to power the motors.
+
+  The circuit:
+
+    Input:
+      1 x QTR-8A reflectance sensor - pins A0, A1, A2, A3, A4, A5
+    
+    Output:
+      1 x L293D motor controller - pins 4, 5, 6, 7, 10, 11
+
+  Created 20.01.2024
+  By Comardici Marian Bogdan
+
+  https://github.com/bogdancomardici/IntroductionToRobotics
+
+*/
+
 #include <QTRSensors.h>
 
 const int m11Pin = 7;
