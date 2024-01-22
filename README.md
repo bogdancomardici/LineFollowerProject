@@ -29,11 +29,11 @@ We incorporated the ball caster into the design, enhancing stability and offerin
 
 ## Code 📚
 
-[Link to Code](/Resources/line_follower.jpeg)
+[Link to Code](/Resources/line_follower.ino)
 
 ## Line Follower Assembled 🤖
 
-![Assembled line follower](/Resources/line_follower.ino)
+![Assembled line follower](/Resources/line_follower.jpeg)
 
 ## Video of the course 🎥
 
